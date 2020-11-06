@@ -61,8 +61,8 @@ MAX_MEMORY = int(1e6)
 MAX_TRAINING_EPISODES = int(1e5)
 MAX_EPSILON = 0.04
 MIN_EPSILON = 0.001
-BATCH_SIZE = 32#512
-WARM_UP = BATCH_SIZE#100 * BATCH_SIZE
+BATCH_SIZE = 512
+WARM_UP = 100 * BATCH_SIZE
 TARGET_UPDATE_FREQ = 1000
 SAVE_FREQ = 1000
 PLOT_FREQ = 10
@@ -234,8 +234,6 @@ def create_global_model():
     model.compile(optimizer=tf.keras.optimizers.Adam(lr=ADAM_LR,
                                                      ),
                   loss=[dqn_loss, dqn_loss, 'mae'])
-    #model.make_predict_function()
-    #model.make_train_function()
     return model
 
 
