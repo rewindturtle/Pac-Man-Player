@@ -1,0 +1,84 @@
+{
+  "info": {
+    "lives": {
+      "address": 103,
+      "type": "|u1"
+    },
+	"level": {
+      "address": 104,
+      "type": "|u1"
+    },
+    "score": {
+      "address": 112,
+      "type": "<n6"
+    },
+	"pacmanX": {
+      "address": 26,
+      "type": "|u1"
+    },
+	"pacmanY": {
+      "address": 28,
+      "type": "|u1"
+    },
+	"blinkyX": {
+      "address": 30,
+      "type": "|u1"
+    },
+	"blinkyY": {
+      "address": 32,
+      "type": "|u1"
+    },
+	"pinkyX": {
+      "address": 34,
+      "type": "|u1"
+    },
+	"pinkyY": {
+      "address": 36,
+      "type": "|u1"
+    },
+	"inkyX": {
+      "address": 38,
+      "type": "|u1"
+    },
+	"inkyY": {
+      "address": 40,
+      "type": "|u1"
+    },
+	"clydeX": {
+      "address": 42,
+      "type": "|u1"
+    },
+	"clydeY": {
+      "address": 44,
+      "type": "|u1"
+    },
+	"pacmanGraphic": {
+      "address": 50,
+      "type": "|u1"
+    },
+	"blinkyGraphic": {
+      "address": 51,
+      "type": "|u1"
+    },
+	"pinkyGraphic": {
+      "address": 52,
+      "type": "|u1"
+    },
+	"inkyGraphic": {
+      "address": 53,
+      "type": "|u1"
+    },
+	"clydeGraphic": {
+      "address": 54,
+      "type": "|u1"
+    },
+	"fruit": {
+      "address": 55,
+      "type": "|u1"
+    },
+	"pellets": {
+      "address": 106,
+      "type": "|u1"
+    }
+  }
+}
