@@ -17,8 +17,8 @@ USE_TRAINING_WEIGHTS = True
 
 
 # File Paths
-GAME_PATH = "C:/Users/natha/PycharmProjects/ApeX/Game Files"
-STATE_PATH = "C:/Users/natha/PycharmProjects/ApeX/Game Files/Level1.state"
+GAME_PATH = "/Path/To/Game Files"
+STATE_PATH = "/Path/To/Game Files/Level1.state"
 EXPERT_FOLDER = "Expert Data/"
 EXPERT_STATES_PATH = EXPERT_FOLDER + "Expert_States.pkl"
 EXPERT_ACTIONS_PATH = EXPERT_FOLDER + "Expert_Actions.pkl"
